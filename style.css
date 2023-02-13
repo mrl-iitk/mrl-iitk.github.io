@@ -1,0 +1,114 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(234, 231, 231)!important;
+}
+.wrapper{
+    margin: auto 2%;
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.bold{
+    font-weight: 800;
+    font-size: 50px;
+}
+.img{
+    transform: scale(0.8, 0.7);
+    
+    /* border-radius: 5%; */
+}
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+.header{
+    background-color: black;
+    padding: 1% 0;
+    color: white;
+    display: flex;
+    margin-bottom: 2%;
+}
+.my-nav{
+    position: absolute;
+    display: flex;
+    color: white;
+    right: 20%;
+}
+.my-nav a{
+    margin: auto 5%;
+    color: white!important;
+    text-decoration: none;
+}
+.wrapper{
+    margin-top: 4%;
+}
+.about{
+    background-image: url("https://wallpapercave.com/wp/wp1927677.jpg");
+    border-radius: 2%;
+    z-index: -1;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+.about-content{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 50%;
+}
+.about-content p{
+    color: white;
+}
+.about-video{
+    margin: auto 5%;
+    width: 50%;
+}
+.about-video>:nth-child(1){
+    margin-top: 10%;
+}
+#product{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#product>:nth-child(2){
+    width: 45%;
+}
+.p-wrapper{
+    margin-top: 2%;
+    padding: 0 0.5%;
+    border-radius: 1%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.p-wrapper:hover{
+    box-shadow: 0 0 11px rgb(187, 185, 185);
+    transform: scale(1.05);
+}
+.robot{
+   margin: -10% -8%;
+}
+
+#team{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    text-align: center;
+    margin-top: 3.5%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#footer{
+    padding: 15% 7%;
+    text-align: center;
+}
+.social{
+    margin: 0 1.5% 2%;
+}
