@@ -75,9 +75,7 @@ File Name: responsive.css
         padding-bottom: 35px;
     }
 
-    .site-navbar ul li {
-        padding-right: 44px;
-    }
+
 
     .titlepage h2 {
         font-size: 35px;
@@ -90,13 +88,7 @@ File Name: responsive.css
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-    .left {
-        display: none;
-    }
 
-    .site-navbar ul li {
-        padding-right: 32px;
-    }
 
     .full_bg {
         height: 100%;
@@ -200,13 +192,6 @@ File Name: responsive.css
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .header-area {
-        padding: 27px 16px;
-    }
-
-    .left {
-        display: none;
-    }
 
     .full_bg {
         height: 100%;
@@ -244,66 +229,12 @@ File Name: responsive.css
 
 
 
-    /* navbar css for mobile start */
-    .nav-toggler {
-        display: block;
-        position: absolute;
-        right: 15px;
-        z-index: 99999;
-    }
-
-    .site-navbar {
-        min-height: 39px;
-    }
-
-    .site-navbar ul {
-        position: absolute;
-        width: 100%;
-        left: -15px;
-        top: 60px;
-        flex-direction: column;
-        align-items: center;
-        background-color: #ed242e;
-        max-height: 0;
-        overflow: hidden;
-        transition: .3s;
-        z-index: 99999;
-        box-shadow: 0 0 10px rgb(192, 190, 182);
-    }
-
-    .site-navbar ul li {
-        width: 100%;
-        text-align: left;
-        padding-right: 0;
-    }
-
-    .site-navbar ul li a {
-        padding: 25px 25px 0px 25px;
-    }
-
-    .site-navbar ul.open {
-        max-height: 100vh;
-        padding-bottom: 25px;
-        overflow: visible;
-    }
-
-    /* navbar css for mobile end */
 }
 
 @media (max-width: 575px) {
-    .header-area {
-        padding: 27px 16px;
-    }
-
-    .left {
-        display: none;
-    }
-
-
     .full_bg {
         height: 100%;
     }
-
 
     .photog h1 {
         padding-top: 30%;
@@ -345,54 +276,6 @@ File Name: responsive.css
     .titlepage h2 {
         font-size: 25px;
         line-height: 30px;
-    }
-
-    /* navbar css for mobile start */
-    .navbar-area {
-        margin-top: -16px;
-    }
-
-    .nav-toggler {
-        display: block;
-        position: absolute;
-        right: 15px;
-        z-index: 99999;
-    }
-
-    .site-navbar {
-        min-height: 58px;
-    }
-
-    .site-navbar ul {
-        position: absolute;
-        width: 100%;
-        left: 0px;
-        top: 60px;
-        flex-direction: column;
-        align-items: center;
-        background-color: #202020;
-        max-height: 0;
-        overflow: hidden;
-        transition: .3s;
-        z-index: 99999;
-        box-shadow: 0 0 10px rgb(192, 190, 182);
-    }
-
-    .site-navbar ul li {
-        width: 100%;
-        text-align: left;
-        padding-right: 0;
-    }
-
-    .site-navbar ul li a {
-        padding: 25px 25px 0px 25px;
-    }
-
-    .site-navbar ul.open {
-        max-height: 100vh;
-        padding-bottom: 25px;
-        overflow: visible;
-
     }
 
 

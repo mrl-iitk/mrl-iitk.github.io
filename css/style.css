@@ -40,9 +40,14 @@ img {
     height: auto;
 }
 
+hr {
+    border-top: 4px solid rgba(0, 0, 0, 0.5);
+}
+
 /**-- heading section --**/
 
 .titlepage {
+    margin-top: 2%;
     text-align: center;
     padding-bottom: 30px;
 }
@@ -75,33 +80,14 @@ img {
     text-align: center;
 }
 
-
-/*-- header --*/
-
-.header-area {
-    padding: 30px 16px;
-    color: #f1f1f1;
-    width: 100%;
-    z-index: 9999999;
-    height: 87px;
-    background: black;
+/* navbar styling  */
+.navbar-brand {
+    color: white;
+    padding: 0px 20px;
 }
 
-.site-navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.site-navbar ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-}
-
-.site-navbar ul li a {
-    color: #fef6fc;
+.navbar-nav li a {
+    color: white;
     font-size: 18px;
     display: block;
     text-decoration: none;
@@ -109,106 +95,27 @@ img {
     font-weight: bold;
 }
 
-.site-navbar ul li {
-    padding-right: 70px;
+.navbar-nav li {
+    padding: 0px 20px;
 }
 
-.site-navbar ul li:last-child {
-    padding-right: 0;
+.navbar-nav li a:hover,
+.navbar-brand:hover {
+    color: gainsboro;
+    text-decoration: underline;
 }
 
-.site-navbar ul li a:hover {
-
-    color: #9bb3d4;
+.dropdown-menu {
+    background: #353d47;
 }
 
-.site-navbar ul li a.active {
-    color: #00132b;
+.dropdown-item:hover {
+    background: black;
 }
 
-/* navbar regular css end */
-
-
-/* nav-toggler css start */
-
-.nav-toggler {
-    border: 3px solid #fff;
-    padding: 5px;
-    background-color: transparent;
-    cursor: pointer;
-    height: 39px;
-    display: none;
-    z-index: 99999;
-}
-
-.nav-toggler span,
-.nav-toggler span:before,
-.nav-toggler span:after {
-    width: 28px;
-    height: 3px;
-    background-color: #fff;
-    display: block;
-    transition: .3s;
-}
-
-.nav-toggler span:before {
-    content: '';
-    transform: translateY(-9px);
-}
-
-.nav-toggler span:after {
-    content: '';
-    transform: translateY(6px);
-}
-
-.nav-toggler.toggler-open span {
-    background-color: transparent;
-}
-
-.nav-toggler.toggler-open span:before {
-    transform: translateY(0px) rotate(45deg);
-}
-
-.nav-toggler.toggler-open span:after {
-    transform: translateY(-3px) rotate(-45deg);
-}
-
-/* nav-toggler css end */
-
-.left {
-
-    position: absolute;
-    left: 10 px;
-    height: 187px;
-    top: 0;
-    text-align: center;
-    align-items: center;
-    line-height: 87px;
-}
-
-.left i {
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.left a {
+.navbar-nav .show>.nav-link {
     color: white;
-    font-size: 25px;
-    font-weight: bold;
-
-
 }
-
-.left i:hover,
-.left a:hover {
-    color: #9bb3d4;
-
-
-}
-
-/** end header **/
-
 
 /** banner section **/
 
@@ -572,10 +479,11 @@ img {
 }
 
 .services .apply {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5%;
 }
 
 .services button {
@@ -667,4 +575,79 @@ img {
 
 .page-footer ul>li a:hover {
     color: #000000;
+}
+
+/* Publication CSS */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline a {
+    color: #424242;
+}
+
+ul.timeline a:hover {
+    color: #000000;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.titlepage h3 {
+    font-size: 39px;
+    font-weight: 600;
+
+}
+
+ul.timeline.h4 {
+    font-size: 28px;
+}
+
+ul.timeline p {
+    font-size: 18px;
+}
+
+/* robot page css */
+.robots-section .text_body {
+    margin-top: 5%;
+}
+
+.robots-section .text_body p {
+    font-size: large;
+}
+
+.robots-section .tech_specs p {
+    font-size: 25px;
+}
+
+.robots-section .tech_specs .titlepage h4 {
+    font-weight: 600;
+    text-transform: capitalize;
 }
