@@ -130,7 +130,7 @@ hr {
 }
 
 .photog {
-    z-index: 9999;
+    /* z-index: 9999; */
     position: relative;
     text-align: left;
 }
@@ -515,7 +515,7 @@ hr {
 }
 
 .page-footer .box-1 {
-    border-right: 4px solid #343333;
+    /* border-right: 4px solid #343333; */
     padding-top: 25px;
     padding-bottom: 80px;
 }

@@ -16,6 +16,17 @@ File Name: responsive.css
 
 }
 
+@media(max-width:1063px) {
+
+    #robots h2,
+    #people_involved h2,
+    #join_us h2,
+    #publication h2 {
+        margin-top: 7%;
+    }
+}
+
+
 @media(max-width:1024px) {
     .services h3 {
         font-size: 26px;
@@ -271,7 +282,12 @@ File Name: responsive.css
         line-height: 25px;
     }
 
-
+    #robots h2,
+    #people_involved h2,
+    #join_us h2,
+    #publication h2 {
+        margin-top: 15%;
+    }
 
     .titlepage h2 {
         font-size: 25px;
@@ -304,9 +320,18 @@ File Name: responsive.css
     .test {
         width: 350px;
     }
+
 }
 
 @media (max-width: 375px) {
+
+    #robots h2,
+    #people_involved h2,
+    #join_us h2,
+    #publication h2 {
+        margin-top: 20%;
+    }
+
     .services h2 {
         font-size: 20px;
     }
