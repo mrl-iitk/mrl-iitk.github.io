@@ -287,127 +287,6 @@ hr {
 
 
 /** end cases section **/
-
-/* people involved section*/
-.people_body {
-    /* height: 650px; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: white;
-}
-
-.test {
-    position: relative;
-    height: 650px;
-    width: 500px;
-    display: flex;
-    align-items: center;
-}
-
-.swiper {
-    width: 950px;
-}
-
-.card {
-    position: relative;
-    background: #fff;
-    border-radius: 20px;
-    margin-top: 5px;
-
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-.card::before {
-    content: "";
-    position: absolute;
-    height: 40%;
-    width: 100%;
-    background: #000000;
-    border-radius: 20px 20px 0 0;
-}
-
-.card .card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-    position: relative;
-    z-index: 100;
-    height: 500px;
-}
-
-.card .image {
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
-    padding: 3px;
-    background: #3d3d3d;
-}
-
-.card .image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #fff;
-}
-
-.card .media-icons {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.card .media-icons i {
-    color: #fff;
-    opacity: 0.6;
-    margin-top: 10px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.card .media-icons i:hover {
-    opacity: 1;
-}
-
-.card .name-profession {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20%;
-    color: black;
-}
-
-.name-profession .name {
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.name-profession .profession {
-    font-size: 15px;
-    font-weight: 500;
-}
-
-
-.swiper-pagination {
-    position: absolute;
-}
-
-.swiper-pagination-bullet {
-    height: 7px;
-    width: 26px;
-    border-radius: 25px;
-    background: #000000;
-}
-
-/* end people section */
-
-
 /*=============================
    join us(Services) Styles
 =============================*/
@@ -498,6 +377,215 @@ hr {
 /* end join us section */
 
 
+/* Publication CSS */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline a {
+    color: #424242;
+}
+
+ul.timeline a:hover {
+    color: #000000;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.titlepage h3 {
+    font-size: 39px;
+    font-weight: 600;
+
+}
+
+ul.timeline.h4 {
+    font-size: 28px;
+}
+
+ul.timeline p {
+    font-size: 18px;
+}
+
+/* robot page css */
+.robots-section .text_body {
+    margin-top: 5%;
+}
+
+.robots-section .text_body p {
+    font-size: large;
+}
+
+.robots-section .tech_specs p {
+    font-size: 25px;
+}
+
+.robots-section .tech_specs .titlepage h4 {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* teams css */
+#people_involved img {
+    width: 100%;
+    height: auto;
+}
+
+#people_involved .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+#people_involved .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#people_involved .column {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+
+.subteam-title {
+    width: 100%;
+    text-align: center;
+    padding: 45px 0 30px 0;
+}
+
+.subteam-title::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 5px;
+    left: calc(50% - 25px);
+    background: #353535;
+}
+
+.subteam-title h1 {
+    color: #353535;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+.team {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.team .team-img {
+    overflow: hidden;
+}
+
+.team .team-img img {
+    width: 100%;
+    height: auto;
+    transition: all .3s;
+}
+
+.team:hover .team-img img {
+    transform: scale(1.2);
+}
+
+.team .team-content {
+    padding: 20px;
+}
+
+.team .team-content h2 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.team .team-content h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.team .team-content h4 {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.team .team-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.team .team-social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0;
+}
+
+.team .team-social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    padding: 11px 0 10px 0;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+
+    color: black;
+    background: white;
+    transition: all .3s;
+}
+
+.team .team-social a:hover {
+    color: white;
+    background: #000000;
+}
+
 /*==============================
       //footer Styles //
 ==============================*/
@@ -575,79 +663,4 @@ hr {
 
 .page-footer ul>li a:hover {
     color: #000000;
-}
-
-/* Publication CSS */
-ul.timeline {
-    list-style-type: none;
-    position: relative;
-}
-
-ul.timeline a {
-    color: #424242;
-}
-
-ul.timeline a:hover {
-    color: #000000;
-}
-
-ul.timeline:before {
-    content: ' ';
-    background: #d4d9df;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
-}
-
-ul.timeline>li {
-    margin: 20px 0;
-    padding-left: 20px;
-}
-
-ul.timeline>li:before {
-    content: ' ';
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #000000;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
-}
-
-.titlepage h3 {
-    font-size: 39px;
-    font-weight: 600;
-
-}
-
-ul.timeline.h4 {
-    font-size: 28px;
-}
-
-ul.timeline p {
-    font-size: 18px;
-}
-
-/* robot page css */
-.robots-section .text_body {
-    margin-top: 5%;
-}
-
-.robots-section .text_body p {
-    font-size: large;
-}
-
-.robots-section .tech_specs p {
-    font-size: 25px;
-}
-
-.robots-section .tech_specs .titlepage h4 {
-    font-weight: 600;
-    text-transform: capitalize;
 }
