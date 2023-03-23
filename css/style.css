@@ -120,7 +120,8 @@ hr {
 /** banner section **/
 
 .full_bg {
-    background: url(../images/robot-humanoid.jpg);
+/*     background: url(../images/robot-humanoid.jpg); */
+    background: url(../images/PXL_20230323_123133006.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
