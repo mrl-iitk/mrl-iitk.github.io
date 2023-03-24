@@ -120,18 +120,20 @@ hr {
 /** banner section **/
 
 .full_bg {
-/*     background: url(../images/robot-humanoid.jpg); */
-    background: url(../images/PXL_20230323_123133006.jpg);
+    /*     background: url(../images/robot-humanoid.jpg); */
+    /* background: url(../images/PXL_20230323_123133006.jpg); */
+    background: url(../images/team_img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 190vh;
+    zoom: 85%;
     padding-bottom: 150px;
     position: relative;
+    margin-top: 5%;
 }
 
 .photog {
-    /* z-index: 9999; */
     position: relative;
     text-align: left;
 }
@@ -156,10 +158,9 @@ hr {
     background: #fff;
     padding: 80px 50px;
     position: relative;
-    margin: 0 70px;
+    margin: 30px 70px;
     box-shadow: 3px 0 62px rgba(13, 3, 3, 0.18);
     border-radius: 60px;
-    margin-top: -130px;
 }
 
 .container_width {
