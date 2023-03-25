@@ -8,7 +8,7 @@ File Name: responsive.css
     .full_bg {
         height: 200vh;
         zoom: 85%;
-        /* margin-top: 10%; */
+        margin-top: 3%;
     }
 
     .latest {
@@ -93,7 +93,7 @@ File Name: responsive.css
 
 
     .titlepage h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     ul.top_infomation li {
@@ -245,6 +245,11 @@ File Name: responsive.css
         line-height: 40px;
     }
 
+    #about .titlepage h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
 
 
 }
@@ -309,6 +314,8 @@ File Name: responsive.css
     }
 }
 
+
+
 @media(max-width:425px) {
     .full_bg {
         height: 205vh;
@@ -338,7 +345,27 @@ File Name: responsive.css
 
 }
 
+@media(max-width:475px) {
+    #about .titlepage h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    #about .titlepage p {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 375px) {
+    #about .titlepage h2 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    #about .titlepage p {
+        font-size: 13px;
+    }
+
     .full_bg {
         height: 205vh;
         zoom: 30%;
