@@ -5,7 +5,8 @@ File Name: responsive.css
 
 @media (min-width: 1200px) {
 
-    .full_bg {
+
+    #people_involved .full_bg {
         height: 200vh;
         zoom: 85%;
         margin-top: 3%;
@@ -80,11 +81,15 @@ File Name: responsive.css
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    .full_bg {
+    #people_involved .full_bg {
         height: 195vh;
         zoom: 75%;
         margin-top: 10%;
     }
+
+    /* .full_bg {
+        height: 100%;
+    } */
 
     .photog h1 {
         padding-bottom: 35px;
@@ -105,12 +110,15 @@ File Name: responsive.css
 
 
 
-    .full_bg {
+    #people_involved .full_bg {
         height: 215vh;
         zoom: 50%;
         margin-top: 10%;
     }
 
+    /* .full_bg {
+        height: 100%;
+    } */
 
     .photog h1 {
         font-size: 50px;
@@ -210,11 +218,15 @@ File Name: responsive.css
 
 @media (min-width: 576px) and (max-width: 767px) {
 
-    .full_bg {
+    #people_involved .full_bg {
         height: 215vh;
         margin-top: 10%;
         zoom: 50%;
     }
+
+    /* .full_bg {
+        height: 100%;
+    } */
 
     .photog h1 {
         font-size: 50px;
@@ -255,7 +267,11 @@ File Name: responsive.css
 }
 
 @media (max-width: 575px) {
-    .full_bg {
+    /* .full_bg {
+        height: 100%;
+    } */
+
+    #people_involved .full_bg {
         height: 190vh;
         zoom: 40%;
         margin-top: 15%;
@@ -317,7 +333,7 @@ File Name: responsive.css
 
 
 @media(max-width:425px) {
-    .full_bg {
+    #people_involved .full_bg {
         height: 205vh;
         zoom: 30%;
         margin-top: 18%;
@@ -366,7 +382,7 @@ File Name: responsive.css
         font-size: 13px;
     }
 
-    .full_bg {
+    #people_involved .full_bg {
         height: 205vh;
         zoom: 30%;
         margin-top: 20%;
