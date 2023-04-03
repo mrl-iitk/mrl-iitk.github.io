@@ -543,7 +543,8 @@ ul.timeline p {
 }
 
 .team .team-content {
-    padding: 20px;
+    padding: 15px;
+    height: 175px;
 }
 
 .team .team-content h2 {
